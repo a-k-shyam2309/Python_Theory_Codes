@@ -1,18 +1,20 @@
+# LOCAL & GLOBAL & bin , oct , hex
+
 # def greet():
 #     message = "Hello Python"
 #     print(message)
 # greet()
-# #    print(message)  
+# print(message)  NOT ACCESSABLE
 
 # name = "Ananya"
 # def show_name():
-#     print("Inside Name:",name)
+#     print("Inside Name:",name)    ACCESSABLE
 # print("Outside Name:",name)
 # show_name()  
 
 # count = 0
 # def change():
-#     global count
+#     global count        NOW ORIGINAL WILL CHANGE OUTSIDE ALSO BECAUSE OF GLOBAL
 #     count = 20
 #     print("Inside:",count)
 # change()
@@ -29,11 +31,11 @@
 #   vol(r)
 # surf_Area(r)
 
-
 # x=25
 # print(bin(x))
 # print(oct(x))
 # print(hex)
-# print(int("11001",2))
-# print(int("11001",8))
-# print(int("100a",16))
+# print(int("11001",2))    TO CHANGE FROM BINARY TO DECIMAL
+# print(int("11001",8))    TO CHANGE FROM OCTAL TO DECIMAL
+# print(int("100a",16))    TO CHANGE FROM HEX TO DECIMAL
+
