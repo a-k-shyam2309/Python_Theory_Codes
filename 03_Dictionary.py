@@ -18,12 +18,21 @@
 # {'Rounak': 99}
 
 
+# TO ACCESS KEYS FROM A DICTIONARY :-
+#  for key in student.keys():            IN-BUILT IS PRESENT
+#     print(key)
+
+# TO ACCESS VALUES FROM A DICTIONARY :-
+#  for val in student.values():          IN-BUILT IS PRESENT
+#     print(val)
+
 
 # a = {"Aditya":20 , "Rounak":99 , "Arun":85}
-# for key,value in a.items():
+# for key,value in a.items():            TO ACCESS BOTH WE CAN USE WRITE LIKE THIS
 #     print(key , "-" , value)
 
 #O/P =>
 # Aditya - 20
 # Rounak - 99
 # Arun - 85
+
