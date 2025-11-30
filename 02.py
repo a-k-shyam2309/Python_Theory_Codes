@@ -3,6 +3,11 @@
 # print(t1+t2)
 # print(t1*2)
 # print(2 in t1)
+# O/P =>
+# (1, 2, 3, 4, 5, 6, 7)
+# (1, 2, 3, 4, 1, 2, 3, 4)
+# True
+
 
 # n = (5,1,8,3,5)
 # print(len(n))
@@ -10,4 +15,10 @@
 # print(min(n))
 # print(n.count(5))
 # print(n.index(8))
+#O/P =>
+# 5
+# 8
+# 1
+# 2
+# 2
 
