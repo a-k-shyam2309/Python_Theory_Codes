@@ -48,12 +48,12 @@
 # print('He said "Get out"')
 
 # s="Hello"
-# s[3]="a"
+# s[3]="a"            IT WILL SHOW ERROR AS BECAUSE STRING IS IMMUTABLE.
 # print(s)
 
 # s1="Hello"
 # s2="sir"
-# s1 = s1+" "+s2
+# s1 = s1+" "+s2      IT IS CORRECT
 # print(s1)
 
 
@@ -61,7 +61,9 @@
 # for i in numbers:
 #     print(i , end=" , ")
 
+
 # for i in range(10,2,-2):
-#     print(i , end=",")      
+#     print(i , end=",") 
+#O/P => 10,8,6,4
 
 
