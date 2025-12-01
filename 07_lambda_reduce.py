@@ -46,3 +46,20 @@
 # find1 = lambda a,b : a if (len(a)>len(b)) else b        IN THIS WAY A LAMBDA FN CAN BE WRITTEN AT THE PLACE OF SIMPLE FN.
 
 # print(functools.reduce(find1 , list))
+
+
+# from functools import reduce
+# list1 = [1,2,3,4,5]
+# print(reduce(lambda x,y : x if (x>y) else y ,list1))
+
+
+
+# from functools import reduce
+# num = 1234567
+# snum = str(num)
+# print(reduce(lambda x,y : int(x) + int(y) ,snum))
+
+
+# from functools import reduce
+# print(reduce(lambda x,y : x*y ,range(1,6))) 
+
