@@ -20,7 +20,8 @@
 # a = [i+10 for i in range(10)]
 # print(a)
 
-#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 # IF CONDITION IN LIST COMPREHENSION :-
 # list1 = [1,2,3,4,5,6,7,8]
@@ -40,10 +41,12 @@
 # print(list2)
 
 
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 # map():-
+
+
 # -> it resolves the iterables value one by one and perform operations according to the function.
 # syntax :- map(fun , iterable)
 # lazy function so we will use list()
@@ -69,10 +72,12 @@
 # print(squares)
 
 
-#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 # filter():-
+
+
 # -> it resolves the iterables value one by one and check the condition. If condition satisfies then perform operations according to the function.
 # syntax :- filter(fun , iterable)		--> here fun must have condition
 # lazy function so we will use list()
@@ -100,13 +105,16 @@
 # print(lst2)
 
 
-#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 # lambda + map + filter
+
 # Remember the execution that it will start to solve from inside
 
 # from functools import reduce
 # num = [1,2,7,4,3,5,2,6,3]
 # print( reduce(lambda x,y : x+y ,list(map(lambda x : x*x ,list(filter(lambda x : x%2==0 , num))))))
+
 
 
 
