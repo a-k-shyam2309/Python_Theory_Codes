@@ -1,17 +1,27 @@
 # big_num = 10**12
 # print(big_num)
-# print(format(big_num , ','))
+# print(format(big_num , ','))        # Good Practice
+
+# O/P --> 
+# 1000000000000
+# 1,000,000,000,000
+
 
 
 # n=225
-# print(format(n,"d"))
-# print(format(n,"o"))
-# print(format(n,"x"))
-# print(format(n,"b"))
+# print(format(n,"d"))        # Decimal
+# print(format(n,"o"))        # Octal
+# print(format(n,"x"))        # Hex
+# print(format(n,"b"))        # Binary
+
 
 
 # pi = 3.14236
 # print(format(pi , ".4"))
+
+# O/P :-
+# 3.142 (one less than .value)
+
 
 
 # pi = 3.14237
@@ -56,3 +66,4 @@
 list1 = [2,4,6,8,10]
 list2 = [1,3,5,7,9,11,12,13,15]
 i=j=0
+
