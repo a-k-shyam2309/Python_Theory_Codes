@@ -12,6 +12,7 @@
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # cesar_cipher #
+# If you go past 'Z', loop back to 'A' (e.g., with a shift of 3, 'X' becomes 'A', 'Y' becomes 'B', 'Z' becomes 'C').
 
 # Method-1
 
