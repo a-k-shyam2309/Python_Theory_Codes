@@ -96,3 +96,11 @@
 # It must return the new object instance
 # It rarely need implementation because the default method sufficient for creating the object.
 
+# 1) Substring Immutable Types:-
+# --> when u want to modufy the immutable class like int , str , float ,tuple etc.
+# --> These objects can't be modified after again creation.
+# --> and __init__ method is too late to alter the values.
+# --> __new__ used to alter the values of the object before their creation.
+
+# 2) Memory Allocation:-
+# 
