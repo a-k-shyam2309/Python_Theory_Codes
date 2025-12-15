@@ -35,6 +35,17 @@
 #     def bark(self):       #SELF IS COMPULSARY WHETHER WE USE IT OR NOT DOESN'T MATTER.
 #         return (f"{self.name} says bow bow")
 # dog1 = Dog("Sheru" , 5)
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#  __new__
+
+# It is the constructor that actually ceates the object
+# First step in the object creation.
+# It allocate memory and returns a new instance of the class.
+# It runs before __init__
+# It must return the new object instance
+# It rarely need implementation because the default method sufficient for creating the object.
 # dog2 = Dog("Tommy" , 9)
 # print(dog1.name)
 # print(dog2.name)
@@ -75,4 +86,5 @@
 #         self.dog1=Dog()
         
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
