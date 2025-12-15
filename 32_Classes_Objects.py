@@ -87,4 +87,12 @@
         
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+#  __new__
+
+# It is the constructor that actually ceates the object
+# First step in the object creation.
+# It allocate memory and returns a new instance of the class.
+# It runs before __init__
+# It must return the new object instance
+# It rarely need implementation because the default method sufficient for creating the object.
 
