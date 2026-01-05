@@ -102,5 +102,3 @@
 # --> and __init__ method is too late to alter the values.
 # --> __new__ used to alter the values of the object before their creation.
 
-# 2) Memory Allocation:-
-# 
