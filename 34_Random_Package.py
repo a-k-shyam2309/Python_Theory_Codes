@@ -14,7 +14,7 @@
 # random()                  Returns a floating point number between 0.0 and 1.0(excluding 1.0)                      chance = random.random()
 # uniform(a,b)                   Returns a floating point number between a & b                                      val = random.uniform(1.5,9.5)
 # shuffle(list)     Randomly rearranges the elements of a list in place. It doesn't return a new list.                random.shuffle(my_list)
-# sample(pop,k)   Returns a new list containing k unique elements choosen randomly from a population(pop)       winners = random.sample(my_list,3)
+# sample(my_list,k)   Returns a new list containing k unique elements choosen randomly from a list       winners = random.sample(my_list,3)
 
 
 
@@ -86,6 +86,7 @@
 #             print(f"In {c} times you found the answer...")
 #             return False
 # find()
+
 
 
 
