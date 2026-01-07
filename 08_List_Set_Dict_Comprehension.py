@@ -42,6 +42,24 @@
 
 
 
+# SET COMPREHENSION
+s = {x*x for x in range(1, 6)}
+print(s)
+
+#O/P:-
+{1, 4, 9, 16, 25}
+--> Removes duplicates automatically.
+
+
+
+
+# DICTIONARY COMPREHENSION
+d = {x: x*x for x in range(1, 6)}
+print(d)
+
+#O/P:-
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+--> Key → x, Value → x²
 
 
 
