@@ -3,7 +3,7 @@
 
 # SYNTAX :-
 
-# if we need to keep class empty we need to write pass other it will create error.
+# if we need to keep class empty we need to write pass otherwise it will create error.
 # class Car:
 #     pass      
 # car1 = Car()    # calling by making an object
@@ -29,7 +29,7 @@
 
 # class Dog:
 #     species = "Indian Desi"
-#     def __init__ (self , name , age):
+#     def __init__ (self , name , age):        # CONSTRUCTOR
 #         self.name = name
 #         self.age = age
 #     def bark(self):       #SELF IS COMPULSARY WHETHER WE USE IT OR NOT DOESN'T MATTER.
@@ -43,7 +43,7 @@
 # It is the constructor that actually ceates the object
 # First step in the object creation.
 # It allocate memory and returns a new instance of the class.
-# It runs before __init__
+# It runs before __init__ constructor
 # It must return the new object instance
 # It rarely need implementation because the default method sufficient for creating the object.
 # dog2 = Dog("Tommy" , 9)
@@ -87,18 +87,11 @@
         
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#  __new__
-
-# It is the constructor that actually ceates the object
-# First step in the object creation.
-# It allocate memory and returns a new instance of the class.
-# It runs before __init__
-# It must return the new object instance
-# It rarely need implementation because the default method sufficient for creating the object.
 
 # 1) Substring Immutable Types:-
-# --> when u want to modufy the immutable class like int , str , float ,tuple etc.
+# --> when u want to modify the immutable class like int , str , float ,tuple etc.
 # --> These objects can't be modified after again creation.
 # --> and __init__ method is too late to alter the values.
 # --> __new__ used to alter the values of the object before their creation.
+
 
