@@ -6,6 +6,10 @@
 # result = sub(pattern , rep , text)
 # print(result)
 
+
+
+# NEGATION:-
+
 # text = input("Enter the Number: ")
 # pattern = r'[^0-5]\d{9}$' # ^--> Negation --> (It is used to check if first digit is between 0 to 5 it is print invalid)
 # if (match(pattern,text)):
@@ -37,5 +41,6 @@
 # pat = re.compile(r"hello" , re.IGNORECASE)    # We can also write re.I instead of re.IGNORECASE
 # new_text = pat.findall(text)
 # print(new_text)
+
 
 
