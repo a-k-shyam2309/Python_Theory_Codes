@@ -48,10 +48,15 @@
 # import re
 # pat = r'(a+)(b+)(c+)(e+)'
 # m = re.match(pat , 'abbcccee')
-# print()
+# print(m)
 # print(m.start())
 # print(m.end())
 # print(m.start(0))
 # print(m.end(1))
 
-# Check Once and Analyse
+
+# <re.Match object; span=(0, 8), match='abbcccee'>
+# 0
+# 8
+# 0
+# 1
