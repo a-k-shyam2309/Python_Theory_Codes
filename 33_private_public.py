@@ -61,7 +61,7 @@
 # acc = Bank(10000)
 # print(acc.__calculateinterest())          # This will show error as it is a private function
 # print(acc.__balance)                      # This will show error as it is a private variable
-# print(acc.calculateAmount())              # This will show the answer as it is a public function
+# print(acc.calculateAmount())              # This will not show error as it is a public function
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -69,5 +69,6 @@
 #  var => public
 #  _var => protected
 #  __var => private
+
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
